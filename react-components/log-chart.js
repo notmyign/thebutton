@@ -91,7 +91,7 @@ var LogChart = React.createClass({
                     (
                         (
                             (self.props.clicks.length - i) *
-                            (self.state.barHeight + 1)
+                            (self.state.barHeight )
                         ) + (self.state.barHeight < 10 ? 5 : 0)
                     ) +
                     ")";
